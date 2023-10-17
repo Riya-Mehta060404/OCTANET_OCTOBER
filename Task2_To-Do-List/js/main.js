@@ -28,7 +28,7 @@ function addToDo(task_input, date_input) {
     task: task_input.value,
     dueDate: date_input.value, // added due date
     completed: false,
-    status: "pending", // adding initial status as 'pending'
+    status: "Web-Development", // adding initial status as 'pending'
   };
   todos.push(task);
 }
